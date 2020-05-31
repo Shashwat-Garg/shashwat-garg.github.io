@@ -22,9 +22,6 @@
 	padding-right: 10%;
 	padding-top: 20vh;
 	padding-bottom: 5vh;
-	/*display: flex;*/
-	justify-content: center;
-	align-content: center;
 	background: white;
 	border-radius: 10px;
 	-webkit-box-shadow: 10px 10px 10px #444;
@@ -37,7 +34,6 @@
 	z-index: 2;
 	margin-top: 5%;
 	margin-left: 45%;
-	align-self: center;
 	border-radius: 50%;
 	position: absolute;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
