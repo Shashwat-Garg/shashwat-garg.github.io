@@ -53,3 +53,32 @@
 	margin-left: 81%;
 	margin-top: 11%;
 }
+
+.line_breaks {
+	display: none;
+}
+
+/* for mobile */
+@media only screen and (max-width: 600px) {
+
+	#details_box {
+		margin-top: 25%;
+		padding-top: 15vh;
+	}
+
+	#profile_pic {
+		width: 30%;
+		margin-top: 10%;
+		margin-left: 35%;
+	}
+
+	#resume_icon {
+		width: 20%;
+		margin-left: 69%;
+		margin-top: 26%;
+	}
+
+	.line_breaks {
+		display: inline-block;
+	}
+}
