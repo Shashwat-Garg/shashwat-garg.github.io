@@ -1,13 +1,13 @@
 .profile_links_texts {
 	color: #4875bd;
-	font-size: 30px;
+	font-size: 15px;
 	padding: 10px;
 	text-decoration: none;
 }
 
 .profile_links_icons {
 	color: #4875bd;
-	font-size: 50px;
+	font-size: 30px;
 	padding: 10px;
 	text-decoration: none;
 }
@@ -42,7 +42,7 @@
 }
 
 .text {
-	font-size: 25px;
+	font-size: 18px;
 }
 
 #resume_icon {
@@ -60,6 +60,16 @@
 
 /* for mobile */
 @media only screen and (min-width: 700px) {
+
+	.profile_links_texts {
+		font-size: 30px;
+		padding: 10px;
+	}
+
+	.profile_links_icons {
+		font-size: 50px;
+		padding: 10px;
+	}
 
 	#details_box {
 		margin-top: 10%;
@@ -80,5 +90,9 @@
 
 	.line_breaks {
 		display: none;
+	}
+
+	.text {
+		font-size: 25px;
 	}
 }
