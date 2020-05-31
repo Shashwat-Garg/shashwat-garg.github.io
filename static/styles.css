@@ -59,7 +59,7 @@
 }
 
 /* for mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
 
 	#details_box {
 		margin-top: 25%;
