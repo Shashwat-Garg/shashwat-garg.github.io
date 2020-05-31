@@ -1,0 +1,59 @@
+.profile_links_texts {
+	color: #4875bd;
+	font-size: 30px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.profile_links_icons {
+	color: #4875bd;
+	font-size: 50px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#details_box {
+	position: absolute;
+	width: 60%;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20vh;
+	padding-bottom: 5vh;
+	/*display: flex;*/
+	justify-content: center;
+	align-content: center;
+	background: white;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 10px #444;
+    -moz-box-shadow: 10px 10px 10px #444;
+	box-shadow: 10px 10px 10px #444;
+}
+
+#profile_pic {
+	width: 10%;
+	z-index: 2;
+	margin-top: 5%;
+	margin-left: 45%;
+	align-self: center;
+	border-radius: 50%;
+	position: absolute;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.text {
+	font-size: 25px;
+}
+
+#resume_icon {
+	position: absolute;
+	z-index: 2;
+	width: 8%;
+	margin-right: 11%;
+	margin-left: 81%;
+	margin-top: 11%;
+}
